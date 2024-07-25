@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .dropdown-content {
+            display: none;
+            background-color: green;
+            color: white;
+            width: 150px;
+            margin-top: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        #dropdown {
+            width: 100px;
+            position: relative;
+            display: inline-block;
+            background-color: red;
+        }
+        #dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <div id="dropdown">
+        <button id="dropbtn">MOSTRAR</button>
+        <div class="dropdown-content">
+            <ul>
+                <li>Produtos</li>
+                <li><a href="headerTeste.html">headerEmbalagens</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
